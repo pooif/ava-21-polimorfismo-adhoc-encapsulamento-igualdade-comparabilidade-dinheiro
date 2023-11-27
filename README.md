@@ -122,13 +122,13 @@ Dinheiro[] dinheiros = {d13, d14, d15, d16, d17};
 
 // 👈 código para classificar em ordem crescente através de java.util.Arrays
 
+System.out.println(java.util.Arrays.toString(dinheiros)); // "stringuifica" o array de dinheiros
+
 System.out.println(dinheiros[0].equals(d15));
 System.out.println(dinheiros[1].equals(d13));
 System.out.println(dinheiros[2].equals(d13));
 System.out.println(dinheiros[3].equals(d16));
 System.out.println(dinheiros[4].equals(d14));
-
-System.out.println(java.util.Arrays.toString(dinheiros)); // "stringuifica" o array de dinheiros
 ```
 
 
